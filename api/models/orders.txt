@@ -1,0 +1,11 @@
+ db.orders.insert({"product":"Octane Hyper Lume Watch with TPU Strap","quantity":23})
+WriteResult({ "nInserted" : 1 })
+> db.orders.insert({"product":"Harry Potter Series","quantity":55})
+WriteResult({ "nInserted" : 1 })
+> db.orders.find()
+{ "_id" : ObjectId("5ed671184d8dd23746ac614e"), "product" : "Titanwallclock", "quantity" : 5 }
+{ "_id" : ObjectId("5ed671454d8dd23746ac614f"), "product" : "Crystal from Raga Facet", "quantity" : 10 }
+{ "_id" : ObjectId("5ed671684d8dd23746ac6150"), "product" : "Captain Marvel Blue Dial Analog Watch", "quantity" : 18 }
+{ "_id" : ObjectId("5ed671914d8dd23746ac6151"), "product" : "Workwear Watch for Women", "quantity" : 23 }
+{ "_id" : ObjectId("5ed6727628c3b24819cee3ff"), "product" : "Octane Hyper Lume Watch with TPU Strap", "quantity" : 23 }
+{ "_id" : ObjectId("5ed672ae28c3b24819cee400"), "product" : "Harry Potter Series", "quantity" : 55

@@ -1,0 +1,32 @@
+> db.products.insert({
+"categoryid" : "Men'sWear",
+ "name" : "T-Shirt",
+ "Description" : "CasualWear",
+  "price" : "600",
+  "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" },
+   "ProductsAvailable" : "500",
+   "Stock" : "500",
+    "picture" : "https://tse1.mm.bing.net/th?id=OIP.-oH5iq0zy-xD72DkdT5FYQHaHa&pid=Api&P=0&w=300&h=300"
+    })
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sWear", "name" : "T-Shirt", "Description" : "GymWear", "price" : "800", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" : "https://tse2.mm.bing.net/th?id=OIP.wFt7rdNAUe199fA6jnT8nwHaIi&pid=Api&P=0&w=300&h=300"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sWear", "name" : "T-Shirt", "Description" : "CasualWear", "price" : "700", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" : "https://tse2.mm.bing.net/th?id=OIP.UewhfUWekuOne7mmSVJjZwHaHa&pid=Api&P=0&w=300&h=300"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sWear", "name" : "MenFormalWear", "Description" : "Formals", "price" : "5000", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "600", "picture" : "https://3.bp.blogspot.com/-mHSvk2hmpg4/UJjJ9HzBuoI/AAAAAAAAX2k/bo9r-pFw0bo/s1600/Latest+Menswear+Winter+Collection+2012+By+ONLY+Clothing+-+012+-+www.Fashionhuntworld.Blogspot.com.JPG"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sWear", "name" : "MenFormalWear", "Description" : "Formals", "price" : "8999", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "600", "picture" : "https://ph-live-01.slatic.net/original/1f207ebe529b4f8ed83a9c5669e81aba.jpg"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sFootWear","name" : "LeatherShoe", "Description" : "Multicolor", "price" : "1500", "size" : { "Sno1" : "5", "Sno2" : "6", "Sno3" : "7", "Sno4" : "8", "Sno5" : "9" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" :"https://tse4.mm.bing.net/th?id=OIP.a-KXXtc3vPk5BVL4F_zNRwHaHa&pid=Api&P=0&w=300&h=300"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Men'sFootWear","name" : "Sneakers", "Description" : "SportsShoe", "price" : "9999", "size" : { "Sno1" : "5", "Sno2" : "6", "Sno3" : "7", "Sno4" : "8", "Sno5" : "9" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" :"https://tse1.mm.bing.net/th?id=OIP.PXpv_2F3ua58O-C1SXsWYQHaHa&pid=Api&P=0&w=300&h=300"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Women'sEthnicWear", "name" : "EthnicPartyWearGowns", "Description" : "Women'sPartyWearClothing", "price" : "5000", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "600", "picture" : "https://4.imimg.com/data4/VS/SW/ANDROID-58104927/product-500x500.jpeg"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Women'sEthnicWear", "name" : "Kurtas&Kurthis", "Description" : "CasualWear", "price" : "1000", "size" : { "Sno1" : "S", "Sno2" : "M", "Sno3" : "L", "Sno4" : "XL", "Sno5" : "XS" }, "ProductsAvailable" : "500", "Stock" : "600", "picture" : "http://z-ecx.images-amazon.com/images/G/31/img16/apparel/women/201606/EOSS/women/ethnic/Kurtas._V268986823_.jpg"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Women'sFootWear","name" : "FlatLoafers", "Description" : "CasualClassicShoe", "price" : "1899", "size" : { "Sno1" : "5", "Sno2" : "6", "Sno3" : "7", "Sno4" : "8", "Sno5" : "9" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" :"http://i.ebayimg.com/images/i/282252497758-0-1/s-l1000.jpg"})
+WriteResult({ "nInserted" : 1 })
+> db.products.insert({"categoryid" : "Women'sFootWear","name" : "Sneakers", "Description" : "CasualClassicShoe", "price" : "6999", "size" : { "Sno1" : "5", "Sno2" : "6", "Sno3" : "7", "Sno4" : "8", "Sno5" : "9" }, "ProductsAvailable" : "500", "Stock" : "500", "picture" :"https://ae01.alicdn.com/kf/HTB1XroDeWSWBuNjSsrbq6y0mVXak/Women-Shoes-2018-Women-Sneakers-Fashion-Women-Casual-Shoes-Breathable-Sneakers-Mesh-Vulcanis-Shoes-Zapatos-Mujer.jpg"})
+WriteResult({ "nInserted" : 1 })
+> db.products.find()
